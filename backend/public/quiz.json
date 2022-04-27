@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "question": "Vad är Scrums ramverk byggt på?",
+    "answers": ["Microsoft", "Empirism", "Sprint", "Javascript"],
+    "correctAnswer": "Empirism"
+  },
+  {
+    "id": 2,
+    "question": "Vilken räknesekvens använder man sig oftast av i Planning Poker?",
+    "answers": ["Fibonacci", "Klädstorlekar", "Hundraser", "1-10"],
+    "correctAnswer": "Fibonacci"
+  },
+  {
+    "id": 3,
+    "question": "Varför spelar man Planning Poker?",
+    "answers": [
+      "För att bestämma vad som ska göras i projektet",
+      "För att tävla om vem som får göra vad",
+      "För att lätta upp på fredagsstämningen",
+      "För att planera stories till sprint"
+    ],
+    "correctAnswer": "För att planera stories till sprint"
+  },
+  {
+    "id": 4,
+    "question": "Vad är sant i skillnaden mellan Scrum Master och projektledare?",
+    "answers": [
+      "Lönen",
+      "SM fokuserar på att hjälpa teamet framför leverans",
+      "SM fokuserar på leverans framför teamet"
+    ],
+    "correctAnswer": "SM fokuserar på att hjälpa teamet"
+  },
+  {
+    "id": 5,
+    "question": "Vad betyder inkrement?",
+    "answers": [
+      "Den samlade produkten uppdaterad med sprintens uppgifter",
+      "Att man adderar en eller flera uppgifter till backlogen",
+      "Att man tar bort en eller flera uppgifter från backlogen"
+    ],
+    "correctAnswer": "Den samlade produkten uppdaterad med sprintens uppgifter"
+  },
+  {
+    "id": 6,
+    "question": "Vem är det som vanligtvis har en produktidé?",
+    "answers": ["Scrum Master", "Produktägarna", "Teamet"],
+    "correctAnswer": "Produktägarna"
+  },
+  {
+    "id": 7,
+    "question": "Hur länge ska ett scrummöte hålla på?",
+    "answers": ["10 min", "30 min", "15 min"],
+    "correctAnswer": "15 min"
+  },
+  {
+    "id": 8,
+    "question": "Hur länge håller en sprint på ungefär?",
+    "answers": ["1-4 veckor", "2-3 veckor", "1-2 veckor"],
+    "correctAnswer": "1-4 veckor"
+  }
+]

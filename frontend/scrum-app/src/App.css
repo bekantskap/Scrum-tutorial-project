@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(235, 227, 227);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Merriweather', serif;
+}
+
+p,
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #1e1e24;
+}
+
+/* NAVBAR */
+.navbar-parent {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffcb47;
+  height: 10vh;
+}
+
+.navbar-title {
+  font-size: 2.5em;
+}
+
+.navbar-links {
+  justify-self: flex-end;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar-link {
+  font-size: 1.2em;
+  box-shadow: inset 0 0 0 0 #172815;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.navbar-link:hover {
+  box-shadow: inset 100px 0 0 0 #172815;
+  color: white;
+}
+
+/* GUIDE */
+
+.guide-hero__container {
+  width: 100%;
+  padding-top: 4.9em;
+  background-color: #172815;
+  display: flex;
+  justify-content: center;
+}
+.guide-hero__img {
+  width: 33.3%;
+  /* width: 60em; */
+  opacity: 0.5;
+}
+
+/* GUIDE CARD */
+
+.guide-card__wrapper {
+  width: 100%;
+}
+
+.guide-card__container {
+  background-color: #ffcb47;
+  width: 50%;
+  height: 30em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-full__container {
+  background-color: #172815;
+  text-align: center;
+  width: 100%;
+  min-height: 20em;
+}
+
+.yellow {
+  /* background-color: #ffcb47; */
+}
+
+.guide-full__title {
+  margin: 0;
+  padding: 30px;
+  color: #ffcb47;
+}
+
+.guide-full__content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-card__content {
+  width: 80%;
+}
+
+.mirrored {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content-box__title {
+  margin: 0;
+}
+
+.content-box__content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  color: #ffcb47;
+}
+.content-box__roles {
+  width: 30%;
+  padding: 10px;
+}
+
+/* ARTIFACTS */
+
+.content-box__img {
+  width: 35em;
+}
+
+/* QUIZ */
+
+.quiz-container {
+  background-image: url(../public/img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-box {
+  background-color: #ffcb47;
+  height: 20em;
+  width: 35em;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quiz-content {
+  /* margin-top: 1em; */
+}
+
+.quiz-btns {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  flex-basis: 100%;
+}
+
+.quiz-btn {
+  align-items: center;
+  background-color: #ffcb47;
+  border: 2px solid #1e1e24;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.quiz-btn:focus {
+  color: #171e29;
+}
+
+.quiz-btn:hover {
+  border-color: #172815;
+  color: #fff;
+  fill: #fff;
+}
+
+.win-text {
+  color: #1e1e24;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: contents;
+}
+
+@media screen and (max-width: 1000px) {
+  .guide-card__container {
+    padding-top: 3em;
+    width: 100%;
+    min-height: 40em;
+  }
+
+  .guide-full__container {
+    height: fit-content;
+  }
+
+  .content-box__content {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+  }
+  .content-box__roles {
+    flex-basis: 100%;
+  }
+
+  .content-box__img {
+    width: 60%;
+  }
+
+  .quiz-box {
+    height: 50%;
+    width: 90%;
+  }
+
+  /* .quiz-btns {
+    display: flex;
+    flex-flow: row wrap;
+  } */
+}
