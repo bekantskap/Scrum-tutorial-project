@@ -3,6 +3,7 @@ import GuideCardFull from '../Components/GuideCardFull';
 import GuideHero from '../Components/GuideHero';
 import Artifacts from '../Components/Artifacts';
 import GuideCardSummary from '../Components/GuideCardSummary';
+import FixedImg from '../Components/FixedImg';
 
 export default function Guide() {
   const mirrored = true;
@@ -71,6 +72,7 @@ export default function Guide() {
         }
       />
       <Artifacts />
+      <FixedImg />
       <GuideCard
         title={'Från idé till utveckling'}
         desc={

@@ -144,6 +144,16 @@ li {
   width: 35em;
 }
 
+/* FIXED IMG */
+
+.fixed-img__wrapper {
+  width: 100vw;
+  height: 25em;
+  background-image: url(../public/img/planning.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* QUIZ */
 
 .quiz-container {
@@ -159,21 +169,15 @@ li {
 
 .quiz-box {
   background-color: #ffcb47;
-  height: 20em;
+  height: 25em;
   width: 35em;
   padding: 20px;
   border-radius: 10px;
 }
 
-.quiz-content {
-  /* margin-top: 1em; */
-}
-
 .quiz-btns {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  flex-basis: 100%;
+  display: grid;
+  grid-gap: 1rem;
 }
 
 .quiz-btn {
